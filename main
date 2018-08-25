@@ -1,0 +1,13 @@
+File("C:/Users/janni/PycharmProjects/musik bot/venv/main")
+import discord
+
+client = discord.Client()
+
+@client.event
+async def on_message(message):
+  if message.content.lower().startwith("?start"):
+    await client.send_message(message.channel,"Test bestanden")
+    return
+    save.memory
+
+client.run("AX8hIn005XMrC1b2MxBKXVTmq_goYMrf")
